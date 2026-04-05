@@ -1,0 +1,166 @@
+#pMain{
+    background-image: url("Assets/bogota.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.mainP{
+    background-color: rgb(255, 173, 10);
+    width: 85%;
+    height: 100%;
+}
+
+.mHeader{
+    background-color: rgb(221, 107, 36);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 50px;
+}
+
+.mParag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#mParInf{
+    text-decoration: underline;
+}
+
+.flexBox{
+    min-height: 500px;
+    border: 8px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 150px;
+    height: 500px;
+    background-color: rgb(78, 78, 193);
+    font-size: 40px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    text-shadow: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+}
+
+#box1{
+    background-image: url("Assets/moserrat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box2{
+    background-image: url("Assets/museoBot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box3{
+    background-image: url("Assets/museoOro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box4{
+    background-image: url("Assets/parqueMetro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box5{
+    background-image: url("Assets/jardinBot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pMons{
+    background-image: url("Assets/moserrat.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monsP{
+    background-color: rgb(223, 57, 57);
+    border: 8px solid black;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.monHeader{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(255, 105, 105);
+}
+
+.monParag{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.return{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+#pMusBo{
+    background-image: url("Assets/museoBot.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pMusOr{
+    background-image: url("Assets/museoOro.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pParq{
+    background-image: url("Assets/parqueMetro.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pJardin{
+    background-image: url("Assets/jardinBot.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
